@@ -1,4 +1,4 @@
-import { GtpMessages, MyMessage } from "../../components"
+import { GtpMessages, MyMessage, TypingLoader } from "../../components"
 
 export const OrthographyPage = () => {
   return (
@@ -8,6 +8,8 @@ export const OrthographyPage = () => {
           <GtpMessages text='Hola, escribe tu texto en español y te ayudo con las correcciones' />
 
           <MyMessage text='Hola Mundo' />
+
+          <TypingLoader className='fade-in' />
         </div>
       </div>
     </div>
