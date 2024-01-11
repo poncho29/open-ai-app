@@ -4,7 +4,7 @@ interface Props {
 
 export const MyMessage = ({ text }: Props) => {
   return (
-    <div className="col-start-6 col-end-13 p-3 rounded-lg">
+    <div className="col-start-6 col-end-12 p-3 rounded-lg">
       <div className="flex items-center justify-start flex-row-reverse">
         <div className="flex flex-shrink-0 items-center justify-center w-10 h-10 rounded-full bg-indigo-500">
           G

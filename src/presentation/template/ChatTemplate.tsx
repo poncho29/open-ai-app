@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { GtpMessages, MyMessage, TextMessageBox, TypingLoader } from "../../components";
+import { GtpMessages, MyMessage, TextMessageBox, TypingLoader } from "../components";
 
 interface Message {
   text: string;
