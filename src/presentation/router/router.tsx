@@ -11,9 +11,11 @@ import {
   TextToAudioPage,
   TranslatePage
 } from "../pages";
-import { DashboardLayout } from "../layouts/DashboardLayout";
+import { DashboardLayout } from "../layouts";
 
-export const menuRoutes = [
+import { MenuItem } from "../../interfaces";
+
+export const menuRoutes: MenuItem[] = [
   {
     to: "/orthography",
     icon: "fa-solid fa-spell-check",
