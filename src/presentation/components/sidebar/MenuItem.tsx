@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import { MenuItem as IMenuItem } from "../../interfaces";
+import { MenuItem as IMenuItem } from "../../../interfaces";
 
 interface Props {
   option: IMenuItem;

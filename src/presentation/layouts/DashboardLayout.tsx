@@ -16,7 +16,7 @@ export const DashboardLayout = () => {
         <div className="border-gray-700 border my-3" />
 
         {menuRoutes.map(option => (
-          <MenuItem option={option} />
+          <MenuItem key={option.to} option={option} />
         ))}
       </nav>
 
